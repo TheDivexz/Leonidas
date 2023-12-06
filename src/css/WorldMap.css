@@ -1,0 +1,40 @@
+
+/* Grid.css */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+  
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 71px;
+    height: 40px;
+    aspect-ratio: 1;
+    opacity: 0.0;
+    border: 1px solid black;
+}
+
+.red {
+    color: red;
+    opacity: 1;
+}
+
+.black {
+    color: black;
+    opacity: 1;
+}
+
+.borderless-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 71px;
+    height: 40px;
+    aspect-ratio: 1;
+}
